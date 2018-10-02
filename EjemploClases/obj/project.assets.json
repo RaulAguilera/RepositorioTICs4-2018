@@ -7042,16 +7042,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Raul\\Desktop\\EjemploClases\\EjemploClases.csproj",
+      "projectUniqueName": "c:\\Users\\Raul\\Desktop\\RepositorioTICs4-2018\\EjemploClases\\EjemploClases.csproj",
       "projectName": "EjemploClases",
-      "projectPath": "c:\\Users\\Raul\\Desktop\\EjemploClases\\EjemploClases.csproj",
-      "outputPath": "c:\\Users\\Raul\\Desktop\\EjemploClases\\obj\\",
+      "projectPath": "c:\\Users\\Raul\\Desktop\\RepositorioTICs4-2018\\EjemploClases\\EjemploClases.csproj",
+      "outputPath": "c:\\Users\\Raul\\Desktop\\RepositorioTICs4-2018\\EjemploClases\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/EjemploClases.dll": "c:\\Users\\Raul\\Desktop\\EjemploClases\\bin\\placeholder\\netcoreapp1.1\\EjemploClases.dll"
+        "lib/netcoreapp1.1/EjemploClases.dll": "c:\\Users\\Raul\\Desktop\\RepositorioTICs4-2018\\EjemploClases\\bin\\placeholder\\netcoreapp1.1\\EjemploClases.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {

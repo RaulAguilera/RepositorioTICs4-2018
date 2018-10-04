@@ -7,9 +7,12 @@ namespace EjemploClases
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-var alumno = new Alumno();
+            var alumno = new Alumno();
 
+           
             Console.ReadKey();
         }
+
+       
     }
 }

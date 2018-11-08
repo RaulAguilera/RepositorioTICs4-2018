@@ -24,6 +24,11 @@ namespace PracticaOctubre16
             double af3 = f3.CalcularArea();//Metodo sobreescrito en la clase triangulo
             Console.WriteLine("Area Triangulo: " + af3);
 
+            Circulo f4 = new Circulo();
+            f4.Radio = 3.0;
+            double af4 = f4.CalcularArea();//Metodo sobreescrito en la clase circulo
+            Console.WriteLine("Area Circulo: " + af4);
+
             Console.ReadKey();
         }
     }

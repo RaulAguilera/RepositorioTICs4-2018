@@ -20,7 +20,7 @@ namespace PracticaNoviembre12
 
 public void CalcularPromedio(int n1, int n2, int n3, int n4){
             
-            var promedio = (n1 + n2 + n3 + n4)/2;
+            var promedio = (n1 + n2 + n3 + n4)/4;
 
             Console.WriteLine(String.Format("Promedio de {0} {1} {2} {3} es: {4}",n1,n2,n3,n4,promedio);
 

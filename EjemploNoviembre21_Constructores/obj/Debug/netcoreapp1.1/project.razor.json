@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\Raul\\Desktop\\RepositorioTics7_2018\\EjemploNoviembre21_Constructores\\EjemploNoviembre21_Constructores.csproj",
+  "TargetFramework": "netcoreapp1.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

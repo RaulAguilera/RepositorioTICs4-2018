@@ -1,0 +1,9 @@
+C:\Users\Raul\Desktop\RepositorioTics7_2018\EjemploNoviembre21_Constructores\bin\Debug\netcoreapp1.1\EjemploNoviembre21_Constructores.deps.json
+C:\Users\Raul\Desktop\RepositorioTics7_2018\EjemploNoviembre21_Constructores\bin\Debug\netcoreapp1.1\EjemploNoviembre21_Constructores.runtimeconfig.json
+C:\Users\Raul\Desktop\RepositorioTics7_2018\EjemploNoviembre21_Constructores\bin\Debug\netcoreapp1.1\EjemploNoviembre21_Constructores.runtimeconfig.dev.json
+C:\Users\Raul\Desktop\RepositorioTics7_2018\EjemploNoviembre21_Constructores\bin\Debug\netcoreapp1.1\EjemploNoviembre21_Constructores.dll
+C:\Users\Raul\Desktop\RepositorioTics7_2018\EjemploNoviembre21_Constructores\bin\Debug\netcoreapp1.1\EjemploNoviembre21_Constructores.pdb
+C:\Users\Raul\Desktop\RepositorioTics7_2018\EjemploNoviembre21_Constructores\obj\Debug\netcoreapp1.1\EjemploNoviembre21_Constructores.csprojResolveAssemblyReference.cache
+C:\Users\Raul\Desktop\RepositorioTics7_2018\EjemploNoviembre21_Constructores\obj\Debug\netcoreapp1.1\EjemploNoviembre21_Constructores.AssemblyInfo.cs
+C:\Users\Raul\Desktop\RepositorioTics7_2018\EjemploNoviembre21_Constructores\obj\Debug\netcoreapp1.1\EjemploNoviembre21_Constructores.dll
+C:\Users\Raul\Desktop\RepositorioTics7_2018\EjemploNoviembre21_Constructores\obj\Debug\netcoreapp1.1\EjemploNoviembre21_Constructores.pdb

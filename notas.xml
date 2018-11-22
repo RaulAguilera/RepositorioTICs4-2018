@@ -1,0 +1,13 @@
+
+<notasPadre>
+<notas><!--Este es el nodo padre -->
+    <nota titulo="Nota 1" Descripcion="Esta es la nota 1"/> <!--Este es un nodo con atributos-->
+    <nota><!---Este es un nodo anidado-->
+    </nota>
+    <nota>
+       <titulo></titulo><!--Este es un nodo más anidado-->
+    </nota>
+</notas>
+<notas2>
+</notas2>
+</notasPadre>

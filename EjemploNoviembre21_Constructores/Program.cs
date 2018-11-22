@@ -29,7 +29,10 @@ namespace EjemploNoviembre21_Constructores
             Console.WriteLine("Kilometraje: " + a2.Kilometraje);
 
             Console.WriteLine("Activo: " + a2.Activo);
+            
 
+            Autobus a3 = new Autobus(20);
+            
 
             Console.ReadKey();
         }

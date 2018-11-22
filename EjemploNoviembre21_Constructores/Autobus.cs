@@ -6,6 +6,11 @@ public class Autobus {
     public Autobus()
     {}
 
+    //Constructor con 1 parámetro
+    public Autobus(int kilometraje){
+        Kilometraje = kilometraje;
+    }
+
     //Constructor con 3 parametros
     public Autobus(string modelo, int kilometraje, bool activo)
     {

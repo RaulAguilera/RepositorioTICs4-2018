@@ -1,0 +1,9 @@
+C:\Users\Raul\Desktop\RepositorioTICs4-2018\EjemplosXml\bin\Debug\netcoreapp1.1\EjemplosXml.deps.json
+C:\Users\Raul\Desktop\RepositorioTICs4-2018\EjemplosXml\bin\Debug\netcoreapp1.1\EjemplosXml.runtimeconfig.json
+C:\Users\Raul\Desktop\RepositorioTICs4-2018\EjemplosXml\bin\Debug\netcoreapp1.1\EjemplosXml.runtimeconfig.dev.json
+C:\Users\Raul\Desktop\RepositorioTICs4-2018\EjemplosXml\bin\Debug\netcoreapp1.1\EjemplosXml.dll
+C:\Users\Raul\Desktop\RepositorioTICs4-2018\EjemplosXml\bin\Debug\netcoreapp1.1\EjemplosXml.pdb
+C:\Users\Raul\Desktop\RepositorioTICs4-2018\EjemplosXml\obj\Debug\netcoreapp1.1\EjemplosXml.csprojResolveAssemblyReference.cache
+C:\Users\Raul\Desktop\RepositorioTICs4-2018\EjemplosXml\obj\Debug\netcoreapp1.1\EjemplosXml.AssemblyInfo.cs
+C:\Users\Raul\Desktop\RepositorioTICs4-2018\EjemplosXml\obj\Debug\netcoreapp1.1\EjemplosXml.dll
+C:\Users\Raul\Desktop\RepositorioTICs4-2018\EjemplosXml\obj\Debug\netcoreapp1.1\EjemplosXml.pdb

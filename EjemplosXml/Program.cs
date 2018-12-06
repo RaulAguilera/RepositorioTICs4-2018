@@ -8,14 +8,28 @@ namespace EjemplosXml
     {
         static void Main(string[] args)
         {
-            EjemploLeerArchivoYMostrarContenido();
+            Console.WriteLine("1.-Opcion 1");
+            Console.WriteLine("2.-Opcion 2");
+
+            string opcion = Console.ReadLine();
+
+            if(opcion == "1")
+            {
+                EjemploLeerArchivoYMostrarContenido();
+            }
+            else if(opcion=="2"){
+                EjemploCrearArchivo();
+            }
+
+
+            Console.ReadKey();
         }
 
 
         public static void EjemploLeerArchivoYMostrarContenido()
         {
             XmlDocument xmlDoc = new XmlDocument(); //Creamos un documento XML en memoria
-            xmlDoc.Load(File.Open("notasNov30.xml",FileMode.Open)); //Cargamos el contenido de notasNov30.xml
+            xmlDoc.Load(File.Open("notas.xml",FileMode.Open)); //Cargamos el contenido de notasNov30.xml
 
             XmlNodeList nodeList = xmlDoc.DocumentElement.ChildNodes;//Obtenemos todos los nodos hijo
                                                                      //incluidos en el nodo padre de notasNov30.xml
@@ -33,26 +47,28 @@ namespace EjemplosXml
         {
             //CREAR DOCUMENTO EN MEMORIA
             XmlDocument xmlDoc = new XmlDocument(); //Creamos un documento XML en memoria
-            xmlDoc.LoadXml("<notasPadre></notasPadre>");//Le asignamos nuevo nodo Padre a nuestro nuevo documento
-
-            
+            xmlDoc.Load(File.Open("notas.xml",FileMode.Open));//Le asignamos nuevo nodo Padre a nuestro nuevo documento
 
 
             //MODIFICAR DOCUMENTO EN MEMORIA
             //Agregar un nodo hijo a el nodo padre del documento
             XmlElement newElement = xmlDoc.CreateElement("nota");
-            newElement.InnerText = "Esta es una nota de prueba";
+            Console.WriteLine("Escribe el contenido de la nota 1");
+            string contenido = Console.ReadLine();
+            newElement.InnerText = contenido;
             xmlDoc.DocumentElement.AppendChild(newElement);
 
             //Agregar otro nodo hijo
             XmlElement newElement2 = xmlDoc.CreateElement("nota");
-            newElement2.InnerText = "Esta es la segunda nota de prueba";
+            Console.WriteLine("Escribe el contenido de la nota 2");
+            string contenido2 = Console.ReadLine();
+            newElement2.InnerText = contenido2;
             xmlDoc.DocumentElement.AppendChild(newElement2);
 
             //CREAR ARCHIVO FISICAMENTE
             XmlWriterSettings settings = new XmlWriterSettings();//Objeto con configuracion de Writer
             settings.Indent = true;
-            XmlWriter writer = XmlWriter.Create(File.Create("notas.xml"),settings); //Creamos writer utilizando configuracion
+            XmlWriter writer = XmlWriter.Create(File.Create("notas2.xml"),settings); //Creamos writer utilizando configuracion
 
             //Guardamos el documento físicamente
             xmlDoc.Save(writer);
